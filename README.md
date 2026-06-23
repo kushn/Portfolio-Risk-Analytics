@@ -118,5 +118,3 @@ trade_optimized(signals, data, initial_fund, sl, alloc)        → pd.Series
 calculate_metrics(portfolio_series, trading_days=365)           → dict
 identify_hammer(data, body_ratio, shadow_ratio, upper_shadow)  → pd.Series[bool]
 ```
-
-```
